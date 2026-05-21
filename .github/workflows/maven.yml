@@ -36,6 +36,9 @@ jobs:
     - name: Test with Maven
       run: mvn test
 
+    - name: Check coverage
+      run: mvn clean verify
+
     
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
