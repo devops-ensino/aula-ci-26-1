@@ -6,7 +6,7 @@ public class CalculatorTest {
 
     @Test
     public void testSum() {
-        assertEquals(4, calculator.sum(2, 3), 0.001);
+        assertEquals(5, calculator.sum(2, 3), 0.001);
     }
 
     @Test
